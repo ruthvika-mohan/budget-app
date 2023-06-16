@@ -8,7 +8,7 @@ from datetime import datetime
 
 st.title('Create dataset for budgeting app')
 path = os.getcwd()
-
+st.write(path)
 
 
 with st.sidebar:
